@@ -1,0 +1,106 @@
+html, body{ background: #fff url(../images/bg.png) top left repeat-x;margin:0;padding:0;width:100%;height:100%;color:#101010;font-size:15px;font-family: 'MyriadProCond';}
+.empty{height:220px;}
+.wrapper{position:relative; min-height:100%;height:auto !important;height:100%;}
+.inline{display:inline-block; vertical-align:top;}
+
+.container{max-width: none !important;width: 1000px;margin:0 auto;}
+
+* {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+*:before, *:after {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+
+a{color:#1d84c5;text-decoration:none;}
+a:hover{text-decoration:none;}
+
+a[href^=tel]{color:#ffffff}
+img{border:none;}
+
+h1, h2, h3, h4 {padding:0;line-height: normal;color:#006699;font-family: 'MyriadProBoldCond';text-transform:uppercase;}
+h1{font-size:29px;margin:0 0 5px 0;}
+h2{font-size:22px;margin:0;}
+h3{font-size:18px;margin:0;}
+
+::selection { background: #1e80be; color:#ffffff; text-shadow: 1px 1px 0 #838383; }
+::-moz-selection { background: #1e80be; color:#ffffff; text-shadow: 1px 1px 0 #838383; }
+svg:not(:root) { overflow: hidden; } 
+.chromeframe { margin: 0.2em 0; background: #1e80be; color: black; padding: 0.2em 0; }
+
+#header{width:100%;height:px;min-width:1000px;background:url(../images/bg-main.jpg)  50% 0 no-repeat;min-height:762px;max-height:1070px;background-size:cover;}
+.top-header{position:fixed;width:100%;min-width:1000px;height:73px;background:#242424;z-index:9999;}
+
+.tag{width:100%;height:73px;margin: -118px 0 0 0;display:block; position:absolute;}
+/* LOGO */
+.logo{width:63px;height:59px;float:left;margin-top:7px;}
+.logo a{display:block;width:63px;height:59px;background:url(../images/logo.png) top center no-repeat;}
+
+
+/* NAVIGATION */
+
+ul.nav{padding:0px;margin:0px;width:560px;margin:0 auto;text-align:center;line-height:75px;}
+ul.nav li{ list-style:none;display:inline-block; vertical-align:top;margin-right:30px;}
+ul.nav li:last-child{margin-right:0px;}
+ul.nav li a{font-size:20px;color:#fff;text-transform:uppercase;transition: color  0.3s ease-in;-moz-transition: color  0.3s ease-in;-webkit-transition: color  0.3s ease-in;}
+ul.nav li a:hover, ul.nav li.current a{text-decoration:underline;color:#e34040;}
+ul.nav li a:hover{text-decoration:none;}
+.social{width:23px;height:14px;float:right;margin-top:-45px;}
+.social a{display:block;background:url(../images/ico-social-vk.png) top center no-repeat;width:23px;height:14px;}
+.header-title{padding-top:340px;text-align:center;}
+.header-title h4{background:rgba(18,18,18,0.85);display:inline;margin:0 auto;font-size:60px;color:#fff;text-transform:uppercase;padding:0px 15px;margin-bottom:0px;background:#1c1a1a\0/;}
+.header-title h4 span{color:#de741e;}
+.header-title p{margin:0px;background:rgba(18,18,18,0.85);display:inline;margin:0 auto;color:#fff;text-transform:
+uppercase;font-size:60px;font-family: 'MyriadProBoldCond';padding:0px 10px;background:#1c1a1a\0/;}
+
+/* CONTENT */
+#about-us,
+#rules,
+#buyng,
+#find-out{width:100%;min-width:1000px;background:url(../images/bg-about-us.jpg) top center repeat-y;padding:48px 0px;}
+#about-us .content,
+#rules .content,
+#buyng .content,
+#find-out .content{position:relative;}
+#about-us h4,
+#buyng h4{display:inline;font-size:120px;color:#fff;margin:0px;background:rgba(18,18,18,0.79);padding:0px 18px;position:absolute;top:50%;left:0px;margin-top:-75px;background:#1c1a1a\0/;}
+#about-us .content-text,
+#rules  .content-text,
+#buyng .content-text,
+#find-out .content-text {width:575px;float:right;display:block;font-size:20px;color:#fff;margin:0px;    font-family: 'MyriadProRegular';line-height:24px;}
+
+
+/*RULES*/
+#rules,
+#find-out{background:url(../images/bg-rules.jpg) 50% 55% no-repeat;min-height:362px;background-size:cover;}
+#rules h4{display:inline-block;vertical-align:top;width:500px; right:0px !important;margin-top:-75px;font-size:120px;color:#fff;background:rgba(18,18,18,0.79);padding:0px 18px;position:absolute;top:50%;margin-top:-75px;background:#1c1a1a\0/;}
+#rules .content-text {display:inline-block;vertical-align:top;width:450px;float:left;}
+/* FOOTER */
+#footer{height:px;margin-top:px; position:relative;}
+
+/*BUYNG*/
+#buyng{background:url(../images/bg-fourth-box.jpg) top center repeat-y;}
+#buyng .content-text p{width:495px;float:right;}
+
+/*FIND-OUT*/
+#find-out{background:url(../images/find-out.jpg) 50% 0% no-repeat;background-size:cover;}
+#find-out .content-text {float:left;width:354px;display:inline-block;vertical-align:top;padding-top:90px;}
+#find-out .content-text p a{font-size:20px;color:#ffa800; font-family: 'MyriadProRegular';text-decoration:underline;}
+#find-out .content-text p a:hover{text-decoration:none;}
+#find-out .header-box{width:440px;float:right;}
+#find-out .header-box h4{display:inline;font-size:120px;color:#fff;margin:0px;background:rgba(18,18,18,0.79);padding:0px 18px;background:#1c1a1a\0/;}
+
+#footer{width:100%;min-width:1000px;height:220px;margin-top:-220px;background:#0e0e0e;font-family: 'MyriadProRegular'}
+.logo-footer{width:124px;height:119px;display:inline-block;vertical-align:top;margin-right:70px;margin-top:65px;}
+.logo-footer a{display:block;width:124px;height:119px;background:url(../images/logo-footer.png) top center no-repeat;}
+
+.footer-left-text,
+.footer-right-text{display:inline-block;vertical-align:top;width:200px;color:#fff;font-size:20px;padding-top:90px;}
+.footer-right-text{float:right;padding:65px 0px 0px 0px;width:250px;}
+
+
+
+.clearfix {*zoom: 1;}
+.clearfix:before, .clearfix:after {display: table;line-height: 0;content: "";}
+.clearfix:after {clear: both;}
+
+input::-moz-placeholder { color: #5b98c2;}
+input::-webkit-input-placeholder { color: #5b98c2;}
+textarea::-webkit-input-placeholder { color: #5b98c2;}
+textarea::-moz-placeholder { color: #5b98c2;}

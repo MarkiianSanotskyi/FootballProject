@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'MyriadProBoldCond';
+    src: url('../fonts/MyriadProBoldCond.eot');
+    src: url('../fonts/MyriadProBoldCond.eot') format('embedded-opentype'),
+         url('../fonts/MyriadProBoldCond.woff2') format('woff2'),
+         url('../fonts/MyriadProBoldCond.woff') format('woff'),
+         url('../fonts/MyriadProBoldCond.ttf') format('truetype'),
+         url('../fonts/MyriadProBoldCond.svg#MyriadProBoldCond') format('svg');
+}
+
+@font-face {
+    font-family: 'MyriadProCond';
+    src: url('../fonts/MyriadProCond.eot');
+    src: url('../fonts/MyriadProCond.eot') format('embedded-opentype'),
+         url('../fonts/MyriadProCond.woff2') format('woff2'),
+         url('../fonts/MyriadProCond.woff') format('woff'),
+         url('../fonts/MyriadProCond.ttf') format('truetype'),
+         url('../fonts/MyriadProCond.svg#MyriadProCond') format('svg');
+}
+@font-face {
+    font-family: 'MyriadProRegular';
+    src: url('../fonts/MyriadProRegular.eot');
+    src: url('../fonts/MyriadProRegular.eot') format('embedded-opentype'),
+         url('../fonts/MyriadProRegular.woff2') format('woff2'),
+         url('../fonts/MyriadProRegular.woff') format('woff'),
+         url('../fonts/MyriadProRegular.ttf') format('truetype'),
+         url('../fonts/MyriadProRegular.svg#MyriadProRegular') format('svg');
+}
+
